@@ -1,11 +1,11 @@
-# 🚀 6-Month Full Stack Web Development + AI Integration Roadmap
+# 6-Month Full Stack Web Development + AI Integration Roadmap
 
 > **A complete, structured roadmap for Juniors to go from Zero → Full Stack Developer with AI Integration skills.**  
 > Curated for junior developers learning together. Every phase includes the tech stack, timeline, and hands-on projects.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
