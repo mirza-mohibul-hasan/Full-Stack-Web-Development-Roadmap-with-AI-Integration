@@ -1,7 +1,7 @@
 # 🚀 6-Month Full Stack Web Development + AI Integration Roadmap
 
 > **A complete, structured roadmap for Juniors to go from Zero → Full Stack Developer with AI Integration skills.**  
-> Curated for 3 junior developers learning together. Every phase includes the tech stack, timeline, and hands-on projects.
+> Curated for junior developers learning together. Every phase includes the tech stack, timeline, and hands-on projects.
 
 ---
 
@@ -23,55 +23,60 @@
 
 ## Overview
 
-| Total Duration | 6 Months (26 Weeks) |
-|---|---|
-| Weekly Commitment | 6–8 hours/day |
-| Phases | 6 |
-| Projects | 10+ (Mini + Major) |
-| Final Output | 2 Deployable Full Stack AI-Powered Apps |
+| Total Duration    | 6 Months (26 Weeks)                     |
+| ----------------- | --------------------------------------- |
+| Weekly Commitment | 6–8 hours/day                           |
+| Phases            | 6                                       |
+| Projects          | 10+ (Mini + Major)                      |
+| Final Output      | 2 Deployable Full Stack AI-Powered Apps |
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-| Technology | Purpose |
-|---|---|
-| **HTML5 + CSS3** | Structure & Styling |
-| **JavaScript (ES6+)** | Core Language |
-| **React.js** | UI Framework |
-| **Tailwind CSS** | Utility-first Styling |
-| **Next.js** | Full Stack React Framework |
+
+| Technology            | Purpose                    |
+| --------------------- | -------------------------- |
+| **HTML5 + CSS3**      | Structure & Styling        |
+| **JavaScript (ES6+)** | Core Language              |
+| **React.js**          | UI Framework               |
+| **Tailwind CSS**      | Utility-first Styling      |
+| **Next.js**           | Full Stack React Framework |
 
 ### Backend
-| Technology | Purpose |
-|---|---|
-| **Node.js** | Runtime Environment |
-| **Express.js** | Backend Framework |
-| **REST APIs** | API Architecture |
+
+| Technology     | Purpose             |
+| -------------- | ------------------- |
+| **Node.js**    | Runtime Environment |
+| **Express.js** | Backend Framework   |
+| **REST APIs**  | API Architecture    |
 
 ### Database
-| Technology | Purpose |
-|---|---|
-| **PostgreSQL** | Relational Database |
-| **MongoDB** | NoSQL / Flexible Data |
+
+| Technology     | Purpose                 |
+| -------------- | ----------------------- |
+| **PostgreSQL** | Relational Database     |
+| **MongoDB**    | NoSQL / Flexible Data   |
 | **Prisma ORM** | DB Queries & Migrations |
 
 ### AI & Tools
-| Technology | Purpose |
-|---|---|
-| **OpenAI API (GPT-4o)** | Text Generation & Chat |
-| **Vercel AI SDK** | AI Streaming in Next.js |
-| **LangChain.js** | AI Chains & Agents |
-| **Pinecone / pgvector** | Vector Search (RAG) |
+
+| Technology              | Purpose                 |
+| ----------------------- | ----------------------- |
+| **OpenAI API (GPT-4o)** | Text Generation & Chat  |
+| **Vercel AI SDK**       | AI Streaming in Next.js |
+| **LangChain.js**        | AI Chains & Agents      |
+| **Pinecone / pgvector** | Vector Search (RAG)     |
 
 ### DevOps & Deployment
-| Technology | Purpose |
-|---|---|
-| **Git + GitHub** | Version Control |
-| **Vercel** | Frontend Deployment |
-| **Railway / Render** | Backend Deployment |
-| **Docker (basics)** | Containerization |
+
+| Technology           | Purpose             |
+| -------------------- | ------------------- |
+| **Git + GitHub**     | Version Control     |
+| **Vercel**           | Frontend Deployment |
+| **Railway / Render** | Backend Deployment  |
+| **Docker (basics)**  | Containerization    |
 
 ---
 
@@ -84,6 +89,7 @@
 ### 📅 Week 1 – How the Web Works + HTML & CSS (7 Days)
 
 **Topics:**
+
 - How the internet works (HTTP, DNS, Browsers)
 - HTML5 – Semantic tags, forms, tables, media
 - CSS3 – Box model, Flexbox, Grid, Responsive Design
@@ -98,6 +104,7 @@
 | Day 7 | CSS Grid + Responsive Design |
 
 **🔨 Mini Project: Personal Portfolio Website v1**
+
 - Build a static portfolio with: Header/Nav, About section, Skills section, Contact form (HTML only)
 - Features: Responsive layout, Flexbox/Grid usage, Hover animations
 
@@ -106,6 +113,7 @@
 ### 📅 Week 2–3 – JavaScript Fundamentals (14 Days)
 
 **Topics:**
+
 - Variables, Data Types, Operators
 - Functions, Scope, Closures
 - Arrays, Objects, Destructuring, Spread/Rest
@@ -126,6 +134,7 @@
 | Day 13–14 | ES6 Modules, LocalStorage, Review |
 
 **🔨 Mini Project: Weather App**
+
 - Features: Search city by name, Fetch live weather from OpenWeatherMap API, Show temperature/wind/humidity, Save last 5 searches in LocalStorage, Responsive UI
 
 ---
@@ -133,6 +142,7 @@
 ### 📅 Week 4 – Git, GitHub & Developer Tools (7 Days)
 
 **Topics:**
+
 - Git: init, add, commit, push, pull, branch, merge
 - GitHub: Repos, Pull Requests, Issues, README
 - VS Code tips, Chrome DevTools
@@ -148,6 +158,7 @@
 | Day 7 | Group: Create GitHub org, push all projects |
 
 **🔨 Activity:**
+
 - Push all Week 1–3 projects to GitHub with proper README files
 - Create a GitHub profile README
 - Practice branching strategy (main → dev → feature branches)
@@ -163,6 +174,7 @@
 ### 📅 Week 5–6 – React.js Core (14 Days)
 
 **Topics:**
+
 - JSX, Components, Props
 - State with useState, useEffect
 - Conditional Rendering, Lists & Keys
@@ -182,6 +194,7 @@
 | Day 13–14 | React DevTools + mini exercises |
 
 **🔨 Project: Task Manager App**
+
 - Features: Add/Edit/Delete tasks, Mark complete, Filter by status (All/Active/Done), Persist with LocalStorage, Clean responsive UI with Tailwind CSS
 
 ---
@@ -189,6 +202,7 @@
 ### 📅 Week 7 – Advanced React (7 Days)
 
 **Topics:**
+
 - useContext (Global State)
 - useReducer
 - Custom Hooks
@@ -204,6 +218,7 @@
 | Day 6–7 | Code splitting, Lazy loading |
 
 **🔨 Mini Project: Upgrade Task Manager → Multi-page**
+
 - Add: Dashboard page, Task Detail page, Profile page, Context-based theme toggle (Dark/Light mode)
 
 ---
@@ -211,6 +226,7 @@
 ### 📅 Week 8 – Tailwind CSS + Component Design (7 Days)
 
 **Topics:**
+
 - Tailwind CSS utility classes deep dive
 - Responsive design with Tailwind
 - Building a Design System (colors, spacing, typography)
@@ -218,6 +234,7 @@
 - Figma basics (reading & implementing designs)
 
 **🔨 Project: UI Clone Challenge**
+
 - Pick any popular website (Airbnb, Notion, Stripe landing page)
 - Clone the frontend design using React + Tailwind
 - Focus on pixel-perfect layout, responsiveness, animations
@@ -227,6 +244,7 @@
 ### 📅 Week 9–10 – Next.js Fundamentals (14 Days)
 
 **Topics:**
+
 - Next.js vs React (When & Why)
 - App Router (Next.js 14+)
 - Server Components vs Client Components
@@ -247,6 +265,7 @@
 | Day 13–14 | Metadata, Next/Image, Next/Font |
 
 **🔨 Project: Blog Platform (Frontend)**
+
 - Features: Homepage with post list, Individual post page (dynamic route), Category filter, Search functionality, Dark mode, Fully responsive
 
 ---
@@ -260,6 +279,7 @@
 ### 📅 Week 11–12 – Node.js + Express.js (14 Days)
 
 **Topics:**
+
 - Node.js: Event Loop, Modules, File System, Streams
 - Express.js: Routing, Middleware, Request/Response cycle
 - REST API design principles
@@ -280,6 +300,7 @@
 | Day 13–14 | API testing with Postman |
 
 **🔨 Project: Notes API (REST)**
+
 - Endpoints: `GET /notes`, `POST /notes`, `PUT /notes/:id`, `DELETE /notes/:id`
 - Features: Input validation, Proper status codes, Error messages, Pagination
 
@@ -288,6 +309,7 @@
 ### 📅 Week 13 – Authentication & Security (7 Days)
 
 **Topics:**
+
 - JWT (JSON Web Tokens)
 - bcrypt for password hashing
 - Auth middleware (protect routes)
@@ -305,6 +327,7 @@
 | Day 7 | Security: Rate limit, CORS, Helmet |
 
 **🔨 Project: Auth System**
+
 - Features: Register, Login, Logout, Protected route access, Password hashing, JWT with refresh token
 
 ---
@@ -314,6 +337,7 @@
 #### PostgreSQL + Prisma (Week 14)
 
 **Topics:**
+
 - Relational DB concepts (tables, relations, keys)
 - SQL: SELECT, INSERT, UPDATE, DELETE, JOINs
 - Prisma ORM: schema, migrations, queries
@@ -334,6 +358,7 @@
 #### MongoDB + Mongoose (Week 15)
 
 **Topics:**
+
 - NoSQL concepts (documents, collections)
 - MongoDB Atlas (cloud setup)
 - Mongoose: schemas, models, queries
@@ -352,12 +377,14 @@
 ### 📅 Week 16 – File Uploads, Email & Real-time (7 Days)
 
 **Topics:**
+
 - File uploads with Multer + Cloudinary
 - Sending emails with Nodemailer / Resend
 - WebSockets with Socket.io (basics)
 - Server-Sent Events (SSE) – used in AI streaming
 
 **🔨 Mini Project: Chat App Backend**
+
 - Features: Real-time messaging with Socket.io, Rooms, User join/leave events
 
 ---
@@ -371,6 +398,7 @@
 ### 📅 Week 17–18 – Full Stack Integration (14 Days)
 
 **Topics:**
+
 - Connecting Next.js frontend to Express API
 - Using Axios / fetch in Next.js
 - Next.js API routes vs separate Express backend
@@ -388,7 +416,8 @@
 | Day 10–11 | Error states, Loading states, Toast notifications |
 | Day 12–14 | Full Stack CRUD with auth |
 
-**🔨 Major Project 1: Expense Tracker App** *(Full Stack)*
+**🔨 Major Project 1: Expense Tracker App** _(Full Stack)_
+
 - Stack: Next.js + Express + PostgreSQL + Prisma
 - Features:
   - User authentication (Register/Login)
@@ -403,12 +432,14 @@
 ### 📅 Week 19 – Third-Party APIs & Integrations (7 Days)
 
 **Topics:**
+
 - Working with external REST APIs
 - OAuth 2.0 (Google Login, GitHub Login) with NextAuth.js
 - Stripe for payments (basics)
 - Webhooks
 
 **🔨 Mini Feature Add-on:**
+
 - Add Google OAuth to Expense Tracker
 - Add a Stripe "Premium Plan" page (no real payment needed)
 
@@ -423,6 +454,7 @@
 ### 📅 Week 20 – OpenAI API + Vercel AI SDK (7 Days)
 
 **Topics:**
+
 - What are LLMs? How does GPT-4o work?
 - OpenAI API: Chat Completions, Tokens, Pricing
 - Streaming responses (SSE)
@@ -439,6 +471,7 @@
 | Day 6–7 | Vercel AI SDK in Next.js |
 
 **🔨 Project: AI Chat App**
+
 - Stack: Next.js + Vercel AI SDK + OpenAI GPT-4o
 - Features:
   - Chat interface (like ChatGPT)
@@ -453,6 +486,7 @@
 ### 📅 Week 21 – RAG (Retrieval Augmented Generation) (7 Days)
 
 **Topics:**
+
 - What is RAG and why it matters
 - Vector Embeddings (OpenAI text-embedding-3-small)
 - Vector Databases (Pinecone or pgvector)
@@ -468,6 +502,7 @@
 | Day 7 | Evaluate RAG quality |
 
 **🔨 Project: PDF Chatbot (RAG)**
+
 - Features:
   - Upload a PDF
   - Parse & chunk text
@@ -481,6 +516,7 @@
 ### 📅 Week 22 – AI Agents + LangChain.js (7 Days)
 
 **Topics:**
+
 - What are AI Agents?
 - LangChain.js: Chains, Tools, Agents
 - Tool calling (function calling with OpenAI)
@@ -488,6 +524,7 @@
 - Structured outputs with Zod + AI
 
 **🔨 Mini Project: AI Research Assistant**
+
 - Features:
   - User gives a topic
   - Agent searches the web (Tavily API)
@@ -505,6 +542,7 @@
 ### 📅 Week 23 – Deployment & DevOps Basics (7 Days)
 
 **Topics:**
+
 - Vercel deployment (Next.js apps)
 - Railway / Render (Node.js + PostgreSQL)
 - Environment variables in production
@@ -531,11 +569,13 @@
 ---
 
 ### 🏆 Capstone Project 1: AI SaaS – "SmartDocs"
-*Document management with AI-powered search and chat*
+
+_Document management with AI-powered search and chat_
 
 **Stack:** Next.js 14 + Express + PostgreSQL + Prisma + OpenAI + Pinecone + NextAuth + Stripe
 
 **Features:**
+
 - Google/GitHub OAuth login
 - Upload and manage documents (PDF, TXT)
 - AI Chat with any document (RAG)
@@ -548,11 +588,13 @@
 ---
 
 ### 🏆 Capstone Project 2: Full Stack Social App – "DevConnect"
-*A Twitter/X-like platform for developers*
+
+_A Twitter/X-like platform for developers_
 
 **Stack:** Next.js + Express + MongoDB + Mongoose + Socket.io + Cloudinary + NextAuth
 
 **Features:**
+
 - Auth (Google OAuth + Email)
 - Create posts with Markdown + code blocks
 - Like, Comment, Repost
@@ -566,11 +608,13 @@
 ---
 
 ### 🏆 Capstone Project 3: AI Productivity App – "FlowAI"
-*All-in-one AI workspace: Notes + Tasks + AI Assistant*
+
+_All-in-one AI workspace: Notes + Tasks + AI Assistant_
 
 **Stack:** Next.js + Prisma + PostgreSQL + OpenAI + Vercel AI SDK + React DnD
 
 **Features:**
+
 - Auth with JWT
 - Rich text notes editor (Tiptap)
 - Kanban task board with drag & drop
@@ -585,44 +629,46 @@
 
 ## Final Capstone Project
 
-| Item | Details |
-|---|---|
-| **Duration** | Weeks 24–26 (3 weeks) |
-| **Team Size** | 1 per project OR 3 collaborating |
+| Item             | Details                                   |
+| ---------------- | ----------------------------------------- |
+| **Duration**     | Weeks 24–26 (3 weeks)                     |
+| **Team Size**    | 1 per project OR 3 collaborating          |
 | **Deliverables** | Live URL, GitHub Repo, README, Demo Video |
-| **Presentation** | 15-min demo + code walkthrough |
+| **Presentation** | 15-min demo + code walkthrough            |
 
 ---
 
 ## 📊 Full Timeline Summary
 
-| Phase | Weeks | Focus | Key Project |
-|---|---|---|---|
-| Phase 1 | 1–4 | HTML, CSS, JS, Git | Weather App, Portfolio |
-| Phase 2 | 5–10 | React, Tailwind, Next.js | Task Manager, Blog |
-| Phase 3 | 11–16 | Node, Express, Auth, DB | Notes API, Chat Backend |
-| Phase 4 | 17–19 | Full Stack Integration | Expense Tracker |
-| Phase 5 | 20–22 | AI Integration, RAG, Agents | AI Chat App, PDF Chatbot |
-| Phase 6 | 23–26 | Deployment, Capstone | SmartDocs / DevConnect / FlowAI |
+| Phase   | Weeks | Focus                       | Key Project                     |
+| ------- | ----- | --------------------------- | ------------------------------- |
+| Phase 1 | 1–4   | HTML, CSS, JS, Git          | Weather App, Portfolio          |
+| Phase 2 | 5–10  | React, Tailwind, Next.js    | Task Manager, Blog              |
+| Phase 3 | 11–16 | Node, Express, Auth, DB     | Notes API, Chat Backend         |
+| Phase 4 | 17–19 | Full Stack Integration      | Expense Tracker                 |
+| Phase 5 | 20–22 | AI Integration, RAG, Agents | AI Chat App, PDF Chatbot        |
+| Phase 6 | 23–26 | Deployment, Capstone        | SmartDocs / DevConnect / FlowAI |
 
 ---
 
 ## Resources
 
 ### Free Learning Resources
-| Resource | Link |
-|---|---|
-| The Odin Project | https://www.theodinproject.com |
-| freeCodeCamp | https://www.freecodecamp.org |
-| JavaScript.info | https://javascript.info |
-| React Docs | https://react.dev |
-| Next.js Docs | https://nextjs.org/docs |
-| Prisma Docs | https://www.prisma.io/docs |
-| OpenAI Docs | https://platform.openai.com/docs |
-| Vercel AI SDK | https://sdk.vercel.ai |
-| LangChain.js | https://js.langchain.com |
+
+| Resource         | Link                             |
+| ---------------- | -------------------------------- |
+| The Odin Project | https://www.theodinproject.com   |
+| freeCodeCamp     | https://www.freecodecamp.org     |
+| JavaScript.info  | https://javascript.info          |
+| React Docs       | https://react.dev                |
+| Next.js Docs     | https://nextjs.org/docs          |
+| Prisma Docs      | https://www.prisma.io/docs       |
+| OpenAI Docs      | https://platform.openai.com/docs |
+| Vercel AI SDK    | https://sdk.vercel.ai            |
+| LangChain.js     | https://js.langchain.com         |
 
 ### YouTube Channels
+
 - **Fireship** – Quick concept videos
 - **Web Dev Simplified** – Deep dives
 - **Theo (t3.gg)** – Next.js & modern stack
@@ -630,6 +676,7 @@
 - **freeCodeCamp YouTube** – Full tutorials
 
 ### Practice Platforms
+
 - **LeetCode** – DSA (1 easy problem/day recommended)
 - **Frontend Mentor** – UI challenges
 - **roadmap.sh** – Visual roadmaps
@@ -639,12 +686,14 @@
 ## Tips for the Team
 
 ### 🤝 Team Workflow
+
 1. **Daily Standup (15 min):** What did you do? What will you do? Any blockers?
 2. **Weekly Code Review:** Each person presents their project to the others
 3. **Pair Programming:** Spend at least 2 hours/week coding together
 4. **GitHub Collaboration:** Use branches, PRs, and code reviews on each other's code
 
 ### 💡 Learning Tips
+
 - **Build > Watch.** For every 1 hour of tutorial, spend 2 hours coding
 - **Break things on purpose.** Understanding bugs teaches more than perfect code
 - **Google is not cheating.** Every developer googles. Learn to search effectively
@@ -652,6 +701,7 @@
 - **Teach each other.** If one person learns something, they explain it to the other two
 
 ### ⚠️ Common Mistakes to Avoid
+
 - Tutorial hell – Don't watch 10 tutorials. Build after 1
 - Skipping fundamentals – Don't jump to React without knowing JS well
 - Not using Git – Commit every day, no matter how small
